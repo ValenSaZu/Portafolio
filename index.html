@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Valentina Salazar</title>
+</head>
+<body>
+
+    <header>
+        <a href="index.html"><img src="logo.png" alt="logo"></a>
+        <i class="fas fa-solid fa-bars" id="barrasMenu"></i>
+        <div class="menu">
+            <a href="#home"> Home </a>
+            <a href="#expertise"> Expertises </a>
+            <a href="#work"> Knowledge </a>
+            <a href="#projects"> Projects </a>
+            <a href="#contact"> Contact </a>
+        </div>
+        <div class="menuMobile">
+            <a href="#home"> Home </a><br>
+            <a href="#expertise"> Expertise </a><br>
+            <a href="#work"> Work </a><br>
+            <a href="#projects"> Projects </a><br>
+            <a href="#contact"> Contact </a>
+            <script>
+                const menuMobile = document.querySelector('.menuMobile');
+                const barrasMenu = document.querySelector('#barrasMenu');
+    
+                barrasMenu.addEventListener('click', () => {
+                menuMobile.classList.toggle('show');
+                });;
+            </script>
+        </div>
+    </header>
+
+    <section id="home">
+        <h1 id="home-text">VALENTINA SALAZAR</h1>
+        <h2 id="home-text">FUTURE SOFTWARE INGINEER, FRONT END & APP DEVELOPER.</h2>
+    </section>
+
+    <div id="expertise">
+    <h2 id="titulos"class="h2expertise">My Expertises</h2>
+    <section id="expertise-content">
+        <div class="expertise-item">
+            <div id="title">
+                <i class="fa fa-desktop"></i>
+                <h3>Problems solution</h3>
+            </div>
+            <br><br>
+            <p>My ability to solve problems is one of my distinctive strengths.
+                 I have an analytical mindset and a systematic approach to tackling
+                  complex challenges. I use an analytical and systematic approach,
+                   breaking down challenges into smaller parts and applying logic
+                    and deductive reasoning. My knowledge in programming and data
+                 structures allows me to find efficient solutions. I enjoy facing
+                  challenges and looking for creative solutions.</p>
+        </div>
+        <div class="expertise-item">
+            <div id="title">
+                <i class="fas fa-atom"></i>
+                <h3>Quick learning and adaptation</h3>
+            </div>
+            <br><br>
+            <p>I stand out for my ability to quickly adapt and learn. I am comfortable
+                 in dynamic environments and I am excited to face new challenges. 
+                 I am able to quickly assimilate information, learn new technologies 
+                 and methodologies, and apply that knowledge effectively to solve problems
+                  and achieve successful results.</p>
+        </div>
+        <div class="expertise-item">
+            <div id="title">
+                <i class="fas fa-share"></i>
+                <h3>Analytical thinking</h3>
+            </div>
+            <br><br>
+            <p>My analytical thinking expertise is outstanding. I have the ability to break
+                 down complex problems into simpler elements, analyze data and patterns, and
+                  formulate solutions based on logic and evidence. My structured and critical
+                 approach allows me to make informed decisions and solve problems effectively.</p>
+        </div>
+    </section>
+    </div>
+
+    <div id="work">
+        <h2 id="titulos">Knowledge</h2>
+        <section id="work-content">
+            <div class="timeline-item">
+                <div class="timeline-date">2022 - Now</div>
+                <div class="timeline-content">
+                  <h3>Computer Science</h3>
+                  <p>UCSP (Universidad Catolica San Pablo) Arequipa, Perú</p>
+                </div>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-date">Programing languages</div>
+                <div class="timeline-content">
+                  <p>HTML</p>
+                  <p>CSS</p>
+                  <p>JAVASCRIPT</p>
+                  <p>PHP</p>
+                  <p>PYTHON</p>
+                  <p>C++</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-date">Languages</div>
+                <div class="timeline-content">
+                  <p>Spanish -  Native</p>
+                  <p>English -  B2</p>
+                  <p>Chinese -  20%</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <div id="projects">
+        <h2 id="titulos">Projects</h2>
+        <section id="projects-content">
+            <div class="projects-item" id="project1">
+                <a href=""><img class="project-image" src="project1.png" alt=""></a>
+                <a href=""><p>Parcial Práctico Desarrollo Basado en Plataformas</p></a>
+            </div>
+            <div class="projects-item" id="project2">
+                <a href=""><img class="project-image" src="project2.jpg" alt=""></a>
+                <a href=""><p>Trabajo Final Ccomp I, Bomberman multijugador e individual C++</p></a>
+            </div>
+            <div class="projects-item" id="project3">
+                <a href=""><img class="project-image" src="project5.jpg" alt=""></a>
+                <a href=""><p>Tarea Desarrollo Basado en Plataformas, To do list</p></a>
+            </div>
+            <div class="projects-item" id="project4">
+                <a href=""><img class="project-image" src="project4.png" alt=""></a>
+                <a href=""><p>Tarea Desarrollo Basado en Plataformas, Curriculum Vitae</p></a>
+            </div>
+            <div class="projects-item" id="project5">
+                <a href=""><img class="project-image" src="project3.png" alt=""></a>
+                <a href=""><p>Trabajo Final ICC - Blog Personal</p></a>
+            </div>
+            <div class="projects-item" id="project6">
+                <a href=""><img class="project-image" src="project6.png" alt=""></a>
+                <a href=""><p>Tarea Ccomp II, Encripta y desencripta</p></a>
+            </div>
+            <div class="projects-item" id="project7">
+                <a href=""><img class="project-image" src="project7.jpg" alt=""></a>
+                <a href=""><p>Imagen de relleno</p></a>
+            </div>
+        </section>
+    </div>
+
+    <hr>
+
+    <section id="contact">
+        <div class="item-contact1">
+            <h2>Hello! Thanks for visiting my portfolio.</h2>
+            <p>If you have any questions, suggestions, or just want to connect,
+                 I'd love to hear from you! Feel free to send me a message using any
+                 of the social medias shown below. I am excited to learn about new opportunities
+                   and collaborations. I hope to hear from you soon!</p>
+        </div>
+        <div id="redes" class="item contact2">
+            <a><i class="fab fa-facebook-f"></i></a>
+            <a><i class="fab fa-instagram"></i></a>
+            <a><i class="fab fa-twitter"></i></a>
+            <a><i class="fab fa-whatsapp"></i></a>
+            <a><i class="fab fa-youtube"></i></a>
+            <a><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        &copy; <em>2023</em> Taller Desarrollo Web UCSP
+    </footer>
+
+    <script>
+        window.addEventListener('scroll', function(){
+            let titulos = document.querySelectorAll('#titulos');
+            let HomeName = document.querySelectorAll('#home-text');
+            let expertise = document.querySelectorAll('.expertise-item')
+            let work = document.querySelectorAll('.timeline-item')
+            let projects = document.querySelectorAll('.projects-item')
+    
+            titulos.forEach(function(elemento){
+                let positionTitulos = elemento.getBoundingClientRect().top;
+                let WindowSize = window.innerHeight;
+    
+                if(positionTitulos < WindowSize){
+                    elemento.style.animation = 'scale-up-ver-bottom 1s ease';
+                }
+            });
+    
+            HomeName.forEach(function(elemento){
+                let positionHomeName = elemento.getBoundingClientRect().top;
+                let WindowSize = window.innerHeight;
+    
+                if(positionHomeName < WindowSize){
+                    elemento.style.animation = 'scale-in-center 1s ease';
+                }
+            });
+
+            expertise.forEach(function(elemento){
+                let positionExpertise = elemento.getBoundingClientRect().top;
+                let WindowSize = window.innerHeight;
+    
+                if(positionExpertise < WindowSize){
+                    elemento.style.animation = 'scale-in-hor-left 1s ease';
+                }
+            });
+
+            work.forEach(function(elemento){
+                let positionWork = elemento.getBoundingClientRect().top;
+                let WindowSize = window.innerHeight;
+    
+                if(positionWork < WindowSize){
+                    elemento.style.animation = 'slide-in-blurred-bottom 1s ease';
+                }
+            });
+
+            projects.forEach(function(elemento){
+                let positionProjects = elemento.getBoundingClientRect().top;
+                let WindowSize = window.innerHeight /2;
+    
+                if(positionProjects < WindowSize){
+                    elemento.style.animation = 'scale-in-hor-center 1s ease';
+                }
+            });
+        });
+    </script>    
+</body>
+</html>
